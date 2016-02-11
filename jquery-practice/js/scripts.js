@@ -5,10 +5,10 @@ $("button#cats").click(function() {
   $("ul#dog").prepend("<li>Woof!</li>");
 
   $("ul#cat").children("li").first().click(function() {
-  alert('hi');
+  alert('I will scratch out your eyes');
   });
   $("ul#dog").children("li").first().click(function() {
-  alert('hi');
+  alert('I will eat you, kitty');
   });
 });
 
@@ -18,10 +18,10 @@ $("button#dogs").click(function() {
     $("ul#dog").prepend("<li>Woof!</li>");
 
     $("ul#cat").children("li").first().click(function() {
-    alert('hi');
+    alert('I will scratch out your eyes');
     });
     $("ul#dog").children("li").first().click(function() {
-    alert('hi');
+    alert('I will eat you, kitty');
     });
   });
 });
