@@ -1,0 +1,19 @@
+img {
+margin-top: 2em;
+  margin-left: auto;
+  margin-right: auto;
+  height: 200px;
+  width: auto;
+}
+
+.btn-primary {
+  display: block;
+}
+.btn-inverse {
+  display: block;
+}
+
+.unstyled {
+  text-decoration: none;
+
+}
